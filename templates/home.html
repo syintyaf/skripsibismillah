@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Prediksi Harga Rumah</title>
+</head>
+<body background="https://media1.s-nbcnews.com/i/newscms/2018_30/1355945/home-exterior-today-180726-tease_3f99937c609d875fece6a12af1594bd9.jpg" style=" background-attachment: fixed; background-size: cover; text-align:center">
+    <h1>Prediksi Harga Rumah</h1>
+    <form action="http://localhost:5000/post" method="POST">
+	<br>
+<label for="Kecamatan">Kecamatan</label>
+<select id="Kecamatan" name="Kecamatan">
+<option value="0">Kota</option>
+<option value="1">Sleman</option>
+<option value="2">KulonProgo</option>
+<option value="3">Bantul</option>
+<option value="4">GunungKidul</option>
+</select>
+<br>
+<br>
+<label for="Daerah">Daerah</label>
+<select id="Daerah" name="Daerah">
+<optgroup label="Kota">
+<option value="1">Gondomanan</option>
+<option value="2">Danurejan</option>
+<option value="3">Gedong Tengen</option>
+<option value="4">Ngampilan</option>
+<option value="5">Jetis</option>
+<option value="6">Umbulharjo</option>
+<option value="7">Mergangsan</option>
+<option value="8">Mantrijeron</option>
+<option value="9">Purwo martani</option>
+<option value="10">Gondokusuman</option>
+<option value="11">Pakualaman</option>
+<option value="12">Kraton</option>
+<option value="13">Tegalrejo</option>
+</optgroup>
+<optgroup label="Sleman">
+<option value="14">Depok</option>
+<option value="15">Ngaglik</option>
+<option value="16">Mlati</option>
+<option value="17">Ngemplak</option>
+<option value="18">Umbulmartani</option>
+<option value="19">Berbah</option>
+</optgroup>
+<optgroup label="Gunung Kidul">
+<option value="20">Wonosari</option>
+</optgroup>
+<optgroup label="Bantul">
+<option value="21">Wates</option>
+<option value="22">Kasihan</option>
+<option value="23">Banguntapan</option>
+</optgroup>
+<optgroup label="Kulon Progo">
+<option value="24">Temon</option>
+<option value="25">Wates</option>
+<option value="26">Pengasih</option>
+</optgroup>
+</select>
+<br>
+        <div class="form-group">    
+            <input type="number" name="kamar_tidur" placeholder="Jumlah Kamar Tidur" min="0"/>
+        </div>
+        <div class="form-group">    
+            <input type="number" name="luas_bangunan" placeholder="Luas Bangunan" min="0"/>
+        </div>
+        <div class="form-group">    
+            <input type="number" name="luas_lahan" placeholder="Luas Lahan" min="0"/>
+        </div>    
+        <input type="Submit" value="Hitung" class="btn btn-primary"/>
+    </form>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
