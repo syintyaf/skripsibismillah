@@ -2,7 +2,7 @@ from flask import Flask, render_template, request, redirect, url_for, abort
 import requests
 import joblib
 
-app = Flask(__name__)
+app = Flask(__name__,template_folder='templates')
 
 # home route
 @app.route('/')
